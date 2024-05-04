@@ -12,7 +12,7 @@ function App() {
     console.log(currentContnet);
   }
 
-  let tabContnet = <p>Please select topic.</p>;
+  let tabContnet = <p>Please select topic to show</p>;
   if (currentContnet) {
     tabContnet = (
       <div id="tab-content">
